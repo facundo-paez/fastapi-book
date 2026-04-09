@@ -1,4 +1,4 @@
-from model.creture import Creature
+from model.creature import Creature
 
 
 # fake data, until we use a real database and SQL
@@ -7,8 +7,8 @@ _creatures = [
         name= 'Yeti',
         aka= 'Abominable Snowman',
         country= 'CN',
-        area= 'Himalaya',
-        description= 'Hirsute Hmalayan'
+        area= 'Himalayas',
+        description= 'Hirsute Himalayan'
     ),
     Creature(
         name= 'Bigfoot',
